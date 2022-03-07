@@ -4,12 +4,12 @@ def yes_no(question):
     response = input(question).lower()
 
     # if they say yes, output 'program continues'
-    if response == ("yes") or response == ("y"):
-      response = ("yes")
+    if response == "yes" or response == "y":
+      response = "yes"
       return response
     
-    elif response == ("no") or response == ("n"):
-      response = ("no")
+    elif response == "no" or response == "n":
+      response = "no"
       return response
     #if they say no, output 'display instructions'
     else:
