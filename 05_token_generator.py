@@ -25,7 +25,7 @@ for item in range(0,10):
   print("You got a {}. Your balance is ${:.2f}".format(chosen,balance))
 
 print()
-print()
+
 print()
 print("Starting balance: ${:.2f}".format(STARTING_BALANCE))
 print("Final balance: ${:.2f}".format(balance))
