@@ -29,3 +29,4 @@ if played_before == "no":
   instructions()
 
 print("Program continues")
+print()
