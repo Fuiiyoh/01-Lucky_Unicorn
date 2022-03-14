@@ -10,10 +10,10 @@ for item in range(0,10):
 
   # adjust balance
   if 1 <= chosen_num <= 5:
-    chosen_num == "unicorn"
+    chosen = "unicorn"
     balance += 4
   elif 6 <= chosen_num <= 36:
-    chosen_num == "donkey"
+    chosen = "donkey"
     balance -= 1
   else:
     if chosen_num % 2 == 0:
